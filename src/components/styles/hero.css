@@ -1,0 +1,182 @@
+body{
+      background-color: #0B0B0B;
+}
+
+.hero h1{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    line-height: 65px;
+    letter-spacing: -3px;
+    width: 750px;
+    font-family: 'Geist';
+    font-weight: 500;
+    text-align: center;
+    font-size: 80px;
+}
+.morecontent{
+    padding-top: 30px;
+    gap: 10px;
+}
+.onlineanimation{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.hero h4{
+    font-family: 'Geist';
+    font-weight: 200;
+    font-size: 14px;
+}
+.idididi{
+    font-family: 'Geist';
+    font-weight: 200;
+    font-size: 14px;
+    color: #ADEAA2;
+}
+.content{
+    padding: 80px 80px  40px 90px;
+
+}
+.containet{
+    position: relative;
+    border: 1px rgba(118, 118, 118, 0.407) solid;
+}
+.downarrow{
+    position: absolute;
+    bottom: 0;
+    transform: rotate(270deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* прижимает вниз */
+    align-items: flex-end;     /* прижимает вправо */
+}
+.downleftarrow{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transform: rotate(180deg); /* Можешь поставить любой угол: 180deg, -45deg и т.д. */
+    transform-origin: center;
+}
+.arrowledft{
+    
+    float: right;
+    transform: rotate(90deg); /* Можешь поставить любой угол: 180deg, -45deg и т.д. */
+    transform-origin: center;
+}
+.green{
+    color: #ADEAA2;
+}
+
+.morecontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pulse-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+
+.hero img{
+    margin-left: 160px;
+    margin-top: -60px;
+    position: absolute;
+}
+  
+  .pulse-center {
+    width: 10px;
+    height: 10px;
+    background-color: #ADEAA2;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .pulse-wave {
+    width: 10px;
+    height: 10px;
+    background-color: #ADEAA2;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse-wave 1s ease-out infinite;
+    z-index: 1;
+    opacity: 0.6;
+  }
+  
+  @keyframes pulse-wave {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0.6;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(3.5);
+      opacity: 0;
+    }
+  }
+  
+
+
+
+
+  @keyframes typeAndDelete {
+    0%, 10% {
+      width: 0;
+    }
+    45%, 55% {
+      width: 6.2em;
+    }
+    90%, 100% {
+      width: 0;
+    }
+  }
+  
+  @keyframes blinkCursor {
+    0% {
+      border-color: #ADEAA2;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  .qpiwefn{
+    display: flex;
+    align-items: center;
+  }
+  .text {
+    color: white;
+    opacity: 1;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.2em solid #ADEAA2;
+    animation:
+      typeAndDelete 4s steps(11) infinite,
+      blinkCursor 0.5s step-end infinite alternate;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        line-height: 13vw;
+        letter-spacing: -3px;
+        width: 82vw;
+        font-family: 'Geist';
+        font-weight: 500;
+        text-align: center;
+        font-size: 13vw;
+      }
+      .content {
+        padding: 80px 20px 40px 20px;
+    }
+  }

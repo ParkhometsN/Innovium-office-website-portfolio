@@ -1,0 +1,64 @@
+.wrpapper{
+    padding: 30px 0px 30px 0px;
+}
+.background_ofjioeid{
+    background-color: rgb(25, 24, 24);;
+    border-radius: 20px;
+}
+.containet_content{
+    padding: 16px;
+}
+
+.containet_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.wefjief img{
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.desc{
+    width: 27vw;
+    font-weight: 400;
+    font-size: 26px;
+}
+.ijewofjwefo{
+    padding-top: 16px;
+    opacity: 0.7;
+    width: 27vw;
+    font-weight: 300;
+    font-size: 16px;
+}
+.spstepdkenn h5{
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: 400;
+    color: #ADEAA2;
+    background-color: black;
+    font-size: 20px;
+}
+.kefkef h5{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.kefkef{
+    display: flex;
+    gap: 30px;
+}
+.tyoeprice{
+    font-weight: 400;
+    font-size: 25px;
+}
+.tyoeddd{
+    font-weight: 200;
+    font-size: 14px;
+    opacity: 0.6;
+    padding-bottom: 20px;
+}
+.aboutservwes{
+    height: 130px;
+}

@@ -1,0 +1,50 @@
+        <div className="adawdwdd">
+          <div className="header_main_content">
+            <div className="left_content">
+              {/* <div className="card">
+                <div className="loader">
+                  <p>Digital агенство <span className="dash">-</span> </p>
+                  <div className="words">
+                    <span style={{ color: "transparent" }} className="word">сайты</span>
+                    <span className="word">сайты</span>
+                    <span className="word">маркетинг</span>
+                    <span className="word">seo</span>
+                    <span className="word">соц сети</span>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="descblock">
+                <Col span={screens.md ? 11 : 18} className="des">
+                  <h2>
+                    Мы создаем эффективные digital-решения: маркетинг, реклама,
+                    веб-разработка, автоматизация, аналитика. Помогаем бизнесу
+                    привлекать клиентов, увеличивать продажи
+                    и масштабироваться.
+                  </h2>
+                </Col>
+                <ActiveButton />
+              </div> */}
+              {/* <div className="backgground">
+                <img src="./img/hreen.png" alt="backgeound" />
+              </div> */}
+            </div>
+            {/* <div className="center_content">
+                <Cardmainheader 
+                  title='4,8 из 5'
+                  descrptio='рейтинг курса на основе 2473 оценок'
+                />
+                <Cardmainheader 
+                  title='Запустите бизнес за 3 месяца'
+                  descrptio='Откроете своё дело после основных курсов программы'
+                />
+                <Cardmainheader 
+                  title='При поддержке бизнес-трекера'
+                  descrptio='Получите поддержку и советы, которые помогут избежать ошибок'
+                />
+                <Cardmainheader 
+                  title='-40%'
+                  descrptio='Скидка  действует'
+                />
+            </div> */}
+          </div>
+        </div>

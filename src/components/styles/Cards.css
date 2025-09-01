@@ -1,0 +1,29 @@
+.card_keyses a img{
+    width: 500px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card_keyses a{
+    color: white;
+}
+.card-title{
+    font-family: 'Geist';
+    font-weight: 300;
+    font-size: 14px;
+    margin-block-end: 25px;
+    opacity: 1;
+    margin-block-start: 10px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    transition: all 0.3s ease;
+}
+.card_keyses:hover .card-title{
+    color: #ADEAA2;
+}
+.card_keyses:active .card-title{
+    opacity: 0.5;
+}
+
+
+

@@ -1,0 +1,552 @@
+@font-face {
+    font-family: 'Geist';
+    src: url(../src/assets/fonts/GeistVariableVF.ttf);
+    font-style: normal;
+}
+body{
+    margin: 0 auto;
+    background-color: #0B0B0B;
+    color: white;
+    font-family: 'Geist';
+}
+.hero_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.center_content{
+  /* width: 80vw; */
+  display: flex;
+  gap: 30px;
+  padding-top: 80px;
+}
+.hero_section{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #0B0B0B;
+}
+.briefing-form-container{
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0B0B0B;
+}
+.titlebrifing{
+  letter-spacing: -1px;
+  font-family: 'Geist';
+  font-weight: 500;
+  font-size: 30px;
+}
+.briefing-form{
+  padding: 30px;
+  background-color: #1a1a1a;
+  width: 700px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  border-radius: 30px;
+}
+.backgground img{
+  width: 90vw;
+  object-fit: cover;
+}
+.backgground{
+  padding: 30px;
+}
+.hero_section h2{
+  padding-top: 24px;
+  font-size: 24px;
+  font-family: 'Geist';
+  font-weight: 400;
+}
+.hero_section h3{
+  padding-bottom: 20px;
+  color: #c5c5c5;
+  font-family: 'Geist';
+  font-weight: 300;
+  text-align: center;
+  width: 700px;
+}
+.green{
+  color: #ADEAA2;
+}
+.briefing-form textarea,
+.briefing-form input{
+  height: 50px;
+  color: white;
+  padding-left: 10px;
+  font-size: 16px;
+  background-color: #0B0B0B;
+  border: none;
+  border-radius: 15px;
+}
+
+.sendbrif{
+  cursor: pointer;
+  background-color: #0B0B0B;
+  color: white;
+  border: 2px solid #ADEAA2;
+  padding: 20px 35px;
+  font-weight: 200;
+  font-size: 14px;
+  border-radius: 15px;
+  font-family: 'Geist';
+  transition: all 0.3s ease;
+}
+.sendbrif:hover{
+  color: #ADEAA2;
+}
+.sendbrif:active{
+  background-color: #b0b0b0;
+}
+.ujujjjuju{
+  padding-top: 200px;
+  background-color: #0B0B0B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header_main_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #1a1a1a; */
+  border-radius: 30px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+
+    .loader {
+        color: white;
+        font-family: 'Geist';
+        font-weight: 300;
+        font-size: 55px;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 80px;
+        padding: 10px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+      }
+    
+      .words {
+        overflow: hidden;
+        position: relative;
+      }
+      .words::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          var(--bg-color) 10%,
+          transparent 30%,
+          transparent 70%,
+          var(--bg-color) 90%
+        );
+        z-index: 20;
+      }
+      
+      .word {
+        display: block;
+        height: 100%;
+        font-weight: 300;
+        font-family: 'Geist';
+        padding-left: 6px;
+        color: #ADEAA2;
+        animation: spin_4991 4s infinite;
+      }
+    
+      @keyframes spin_4991 {
+        10% {
+          -webkit-transform: translateY(-102%);
+          transform: translateY(-102%);
+        }
+    
+        25% {
+          -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+        }
+    
+        35% {
+          -webkit-transform: translateY(-202%);
+          transform: translateY(-202%);
+        }
+    
+        50% {
+          -webkit-transform: translateY(-200%);
+          transform: translateY(-200%);
+        }
+    
+        60% {
+          -webkit-transform: translateY(-302%);
+          transform: translateY(-302%);
+        }
+    
+        75% {
+          -webkit-transform: translateY(-300%);
+          transform: translateY(-300%);
+        }
+    
+        85% {
+          -webkit-transform: translateY(-402%);
+          transform: translateY(-402%);
+        }
+    
+        100% {
+          -webkit-transform: translateY(-400%);
+          transform: translateY(-400%);
+        }
+      }
+
+.dash{
+    color: #ADEAA2;
+}
+.header_main_content{
+  height:800px;
+  width: 1350px;
+}
+.adawdwdd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12vw;
+  background-color: #0B0B0B;
+}
+.chek{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.des h2{
+ text-align: center;
+ font-weight: 200;
+ font-family: 'Geist';
+ padding-bottom: 60px;
+}
+
+.descblock{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.attention{
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  background-color: #0B0B0B;
+}
+#close_attention{
+  padding: 10px;
+  font-size: 16px;
+  /* border: 2px #ADEAA2 solid; */
+  border: none;
+  border-radius: 10px;
+  color: #ADEAA2;
+  background-color: #0B0B0B;
+}
+.contentddd {
+  position: fixed;
+  bottom: 20px; /* расстояние от нижнего края */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  width: 90%;        /* адаптивно */
+  max-width: 420px;  /* максимум — как у тебя */
+  border-radius: 20px;
+  background-color: #1a1a1a;
+  z-index: 99999;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0B0B0B;
+}
+.container_content_main{
+  margin-top: 150px;
+}
+.green{
+  color: #ADEAA2;
+}
+.about_block{
+  width: 500px;
+  height: 398px;
+}
+.titkleod h2{
+  font-family: 'Geist';
+  font-weight: 400;
+  font-size: 45px;
+}
+.about_block h3{
+  font-family: 'Geist';
+  font-weight: 400;
+  font-size: 45px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.background_wrappe{
+  background-color: #0B0B0B;
+}
+.Cardsecondprice{
+  padding-top: 200px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.about_block h4{
+  padding-bottom: 390px;
+  font-family: 'Geist';
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+  padding-top: 20px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.work_widsh_who{
+  background-color: #0B0B0B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 300px;
+}
+.work_widsh_who h2{
+  font-weight: 300;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+.backclients{
+  padding-top: 300px;
+  background-color: #0B0B0B;
+  display: flex;
+  justify-content: center;
+}
+.backclients{
+  padding-bottom: 150px;
+}
+.prcie_of_buisness{
+
+  align-items: center;
+  padding-top: 200px;
+  background-color: #0B0B0B;
+  display: flex;
+  gap: 30px;
+  color: black;
+}
+.titlebloc{
+  font-family: 'Geist';
+  font-weight: 400;
+  font-size: 20px;
+}
+.prcie_of{
+  background-color: #0B0B0B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Медиа-запрос для маленьких экранов */
+@media (max-width: 768px) {
+  .loader {
+    height: 160px;
+    font-size: 11vw;
+    flex-direction: column; /* Элементы идут вертикально */
+    align-items: center; /* Выравнивание по центру */
+  }
+  .adawdwdd{
+    padding-top: 20px;
+  }
+
+  .des h2{
+    font-size: 4vw;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0vw 2vw !important;
+    
+}
+  .presentation_butt button{
+    font-size: 3vw !important;
+    padding: 3vw 7vw !important;
+  }
+  .logo h2 {
+    font-size: 4vw !important;
+  }
+  .card_keyses a img {
+    width: 84vw !important;
+    height: 59vw !important;
+    object-fit: cover;
+    border-radius: 5px !important;
+}
+  .words {
+    text-align: center;
+    margin-top: 20px; /* Отступ сверху для words */
+  }
+  .about_block {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 208px;
+  }
+  .about_block h4 {
+    padding-bottom: 170px;
+    font-family: 'Geist';
+    font-weight: 300;
+    font-size: 5vw;
+    color: white;
+    padding-top: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align: center;
+  }
+  .card-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .prcie_of_buisness {
+    align-items: center;
+    padding-top: 200px;
+    background-color: #0B0B0B;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: black;
+  }
+  .work_widsh_who h2 {
+    font-weight: 300;
+    font-size: 5vw;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .work_widsh_who {
+    padding: 300px 4vw 4vw 4vw;
+} 
+  .styled_text{
+    font-size: 4vw;
+    padding: 4vw 4vw !important;
+  }
+  .white_background img {
+    width: 81vw !important;
+    height: 150%;
+    object-fit: cover;
+}
+#container {
+  width: 90vw !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loderimg{
+  padding-top: 20px !important;
+}
+
+.morecontent {
+  flex-direction: column;
+}
+.hero_section {
+  padding-top: 9px;
+}
+.hero_section h2 {
+  padding-top: 4vw;
+  width: 91vw;
+  text-align: center;
+  font-size: 6vw;
+}
+.hero_section h3 {
+  padding-bottom: 20px;
+  color: #c5c5c5;
+  font-family: 'Geist';
+  font-weight: 300;
+  font-size: 5vw;
+  text-align: center;
+  width: 90vw;
+}
+.contentddd {
+  gap: 1vw;
+  display: flex
+;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  margin-top: -29vw;
+  width: 74vw;
+  border-radius: 20px;
+  background-color: #1a1a1a;
+}
+#square {
+  border-radius: 30px;
+  width: 100vw !important;
+  height: 140vh !important;
+}
+.content_serves {
+  display: flex
+;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6vw !important;
+}
+.title_price h4 {
+  font-size: 10vw !important;
+  font-family: 'Geist';
+  font-weight: 500;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.description {
+  list-style: none;
+  font-size: 5vw;
+  font-family: 'Geist';
+  font-weight: 300;
+  padding-inline-start: 0px;
+  padding-bottom: 40px;
+}
+.rifkbl h2 {
+  font-size: 7vw !important;
+}
+.rifkbl h4 {
+  width: 100% !important;
+  font-family: 'Geist';
+  font-weight: 200;
+  font-size: 14px;
+}
+}

@@ -1,0 +1,24 @@
+.backgroundofcard{
+    background-color: #ADEAA2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    width: 280px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.backgroundofcard h1{
+    font-family: 'Geist';
+    font-size: 19px;
+    margin-block-start: 0px;
+    font-weight: 500;
+}
+.backgroundofcard h2{
+    opacity: 0.7;
+    font-size: 13px;
+    font-family: 'Geist';
+    font-weight: 400;
+}

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /search/
+Disallo
+Disallow: /xmlrpc.php
+Disallow: /feed/
+
+Sitemap: https://innoviumoffice.ru/sitemap.xml
