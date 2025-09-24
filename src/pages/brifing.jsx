@@ -120,7 +120,7 @@ function Brifing() {
       `   - Важные дедлайны: ${form.importantDeadlines}\n` +
       `   - Бюджет: ${form.budget}\n\n` +
       
-      `10. 📞 Контактные данные\n` +
+      `10. 📞 Контактные данные (это можете пропустить))\n` +
       `   - Имя: ${form.contactName}\n` +
       `   - Телефон: ${form.contactPhone}\n` +
       `   - Email: ${form.contactEmail}\n` +
@@ -222,7 +222,7 @@ function Brifing() {
           <input name="professionalPhotography" value={form.professionalPhotography} onChange={handleChange} />
 
           <label className="titlebrifing">7. 🎨 Дизайн и стиль</label>
-          <label>Есть ли фирменный стиль / логотип?</label>
+          <label>Есть ли фирменный стиль / логотип?(можете не отвечать)</label>
           <input name="brandStyle" value={form.brandStyle} onChange={handleChange} />
 
           <label>Есть ли сайт, который вам нравится по дизайну и функционалу? Укажите ссылки.</label>
